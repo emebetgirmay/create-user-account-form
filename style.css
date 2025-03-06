@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(240, 217, 238);
+    overflow: hidden; 
+    }
+.form-container {
+    display: flex;
+    width:100%;
+    height:100%;
+    margin-left: 150px;
+    margin-top: 90px;
+
+}
+
+.image-container {
+    width:40%;
+    text-align: center;
+    margin:2% 0 0u;
+}
+
+.image-container img {
+    max-width: 90%; 
+    height:540px; 
+
+    margin-left: 50px;
+    margin-top:80px;
+}
+
+.signup-form {
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: solid thin purple;
+    padding: 20px; 
+    height: 100%;
+    width:90%;
+    margin-left:60px;
+    padding-left: 50px;
+    font-weight: lighter;
+}
+.name-container {
+    display: flex;
+    gap: 50px; 
+    width: 100%; 
+}
+
+#fname{
+    margin-left:0px;
+}
+ #lastname{
+    width: 73%;
+} 
+.signup-form label {
+    float: left;
+    font-weight: lighter;
+}
+
+.title-container {
+    color: rgb(238, 75, 216);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+
+   
+}
+
+h4 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+h4:before,
+h4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid  gray;
+    margin: 10px 5px;
+}
+
+.signupbtn {
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(238, 75, 216);
+    width: 83%; 
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(190, 4, 181);
+}
+
+.signup-form input {
+    width:80%; 
+    padding: 10px;
+    border-radius: 5px;
+    height: 20px;
+    margin: 10px 0; 
+    border:none;
+}
+
+.signin {
+    margin-top: 20px; 
+    padding-left:200px;
+}
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 100px; 
+    margin-top: 20px; 
+    margin-left: 0px;
+    width:80%;
+    background-color: white;
+}
+#feye{
+    position: absolute;
+    right: 327px ;
+    top: 365px;
+}
+#seye{
+    position: absolute;
+    right: 327px ;
+    top: 445px;
+}
